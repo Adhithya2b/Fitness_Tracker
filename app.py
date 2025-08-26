@@ -31,7 +31,9 @@ st.markdown("""
 def main():
     # Header
     st.markdown("# FitAssist")
-    st.markdown("Advanced video analysis for exercise form assessment and repetition counting")
+    st.markdown("Track your workouts and progress with instant analytics &mdash; implemented by [Adhithya B](https://github.com/Adhithya2b). View project source code on [GitHub](https://github.com/Adhithya2b/Fitness_Tracker).",
+    unsafe_allow_html=True
+)
     
     # Sidebar for exercise selection
     with st.sidebar:

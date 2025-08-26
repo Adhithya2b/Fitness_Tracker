@@ -1,2 +1,2 @@
-[tool.streamlit.server]
+[server]
 pythonVersion = "3.10"
